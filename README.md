@@ -48,3 +48,27 @@ The project is structured as follows:
    ```bash
    git clone https://github.com/your-username/dialogue-summarization.git
    cd dialogue-summarization
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook Lab_1_summarize_dialogue.ipynb
+   
+## Running the Notebook
+- Setup: Install the necessary libraries and load the FLAN-T5 model and tokenizer.
+- Direct Summarization: Run the cells to see how the model performs without any prompt engineering.
+- Zero-Shot Inference: Experiment with different prompts to guide the model's summarization.
+- One-Shot and Few-Shot Inference: Provide examples to the model and observe how its performance improves.
+- Generative Configuration: Adjust parameters like temperature, top_k, and top_p to fine-tune the model's output.
+
+## Results
+The notebook demonstrates that:
+- Zero-shot inference improves the model's ability to summarize dialogues compared to direct summarization.
+- One-shot and few-shot inference further enhance the model's performance by providing it with examples.
+- Prompt engineering plays a crucial role in guiding the model to produce more accurate summaries.
+
+## Future Work
+- Fine-tune the FLAN-T5 model on a larger dataset of dialogues to improve its summarization capabilities.
+- Experiment with different prompt templates and generation parameters to optimize the model's output.
+- Explore other in-context learning techniques to further enhance the model's performance.
