@@ -1,0 +1,25 @@
+# Core dependencies
+transformers==4.27.2
+datasets==2.17.0
+evaluate==0.4.0
+rouge_score==0.1.2
+peft==0.3.0
+torch==1.13.1
+torchdata==0.6.0
+tensorflow==2.12.0
+keras==2.12.0
+
+# Explanation of the Dependencies:
+# transformers: Used to load the FLAN-T5 model and tokenizer.
+
+# datasets: Used to load the DialogSum dataset.
+
+# evaluate: Used for evaluating model performance (though not explicitly used in the notebook, it's a good practice to include it).
+
+# rouge_score: Used for calculating ROUGE scores to evaluate summarization quality.
+
+# peft: Parameter-Efficient Fine-Tuning library (though not used in the notebook, it's included for future fine-tuning tasks).
+
+# torch and torchdata: PyTorch and its data utilities, required for model inference.
+
+# tensorflow and keras: Used for some utility functions (though not heavily used in the notebook, they are included for compatibility).
